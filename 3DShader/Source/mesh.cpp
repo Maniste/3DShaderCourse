@@ -79,14 +79,16 @@ void mesh_draw(const Mesh& mesh, const Render_Data& data)
 	material_set("u_DirectionalLight", data.directional_lght);
 	material_set("u_EyePosition", data.eye_position);
 
-	int amount = (data.point_light.length);
-	//Point light
-	for (int i = 0; i < amount; i++)
-	{
-		material_set("u_PointLight[0].position", data.point_light[0].position);
-		material_set("u_PointLight[0].intensity", data.point_light[0].intensity);
-		material_set("u_PointLight[0].color", data.point_light[0].color);
-	}
+
+	material_set("u_PointLight[0].position", data.point_light[0].position);
+	material_set("u_PointLight[0].intensity", data.point_light[0].intensity);
+	material_set("u_PointLight[0].color", data.point_light[0].color);
+
+
+	material_set("u_PointLight[1].position", data.point_light[1].position);
+	material_set("u_PointLight[1].intensity", data.point_light[1].intensity);
+	material_set("u_PointLight[1].color", data.point_light[1].color);
+
 	 
 	glDrawArrays(GL_TRIANGLES, 0, mesh.draw_count);
 }

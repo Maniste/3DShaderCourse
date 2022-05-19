@@ -1,3 +1,6 @@
-﻿  mesh.cpp
-F:\DevStuff\Assigment\3dShade\3DShader\Source\mesh.cpp(82,45): error C2228: left of '.length' must have class/struct/union
-F:\DevStuff\Assigment\3dShade\3DShader\Source\mesh.cpp(82,45): message : type is 'const Point_Light [4]'
+﻿  Main.cpp
+F:\UnityStuff\Projects\gittyhub\3DShaderCourse\3DShader\Source\Main.cpp(116,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\UnityStuff\Projects\gittyhub\3DShaderCourse\3DShader\Source\Main.cpp(123,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  mesh.cpp
+  Generating Code...
+  3DShader.vcxproj -> F:\UnityStuff\Projects\gittyhub\3DShaderCourse\3DShader\Binaries\3DShader.exe
