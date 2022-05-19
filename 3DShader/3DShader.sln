@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DShader", "3DShader.vcxproj", "{FA083CD7-3DAB-4F6F-A389-27B3D72905B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA083CD7-3DAB-4F6F-A389-27B3D72905B7}.Debug|x64.ActiveCfg = Debug|x64
+		{FA083CD7-3DAB-4F6F-A389-27B3D72905B7}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D838A3D-44AC-42FD-B9D2-50C05D0AFE4C}
+	EndGlobalSection
+EndGlobal

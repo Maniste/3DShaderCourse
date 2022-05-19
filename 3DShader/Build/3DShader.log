@@ -1,0 +1,3 @@
+﻿  mesh.cpp
+F:\DevStuff\Assigment\3dShade\3DShader\Source\mesh.cpp(82,45): error C2228: left of '.length' must have class/struct/union
+F:\DevStuff\Assigment\3dShade\3DShader\Source\mesh.cpp(82,45): message : type is 'const Point_Light [4]'
